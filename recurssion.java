@@ -1,7 +1,7 @@
 /**
  * recirrional
  */
-public class recirrional {
+public class recurssion {
 
     public static void main(String[] args) {
         int x = 2 , n = 8;
