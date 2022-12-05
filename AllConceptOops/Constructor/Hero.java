@@ -24,10 +24,10 @@ public class Hero {
         
         Kratos newHero = new Kratos();
         
-
-
         System.out.println(newHero.strength);
+
         newHero.level();
+        
         System.out.println(newHero.level);
         System.out.println(newHero.weapon);
         System.out.println(newHero.defaultWeapon);
