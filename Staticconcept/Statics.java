@@ -28,11 +28,5 @@ public class Statics{
         System.out.println(iPhone.count);
         System.out.println(piexel.count);
         System.out.println(nokia.count);
-
-        System.out.println("Static keyword"  + " "+ iPhone.Scount);
-        System.out.println("Static keyword"  + " "+ piexel.Scount);
-        
-        System.out.println("Static keyword"  + " " + nokia.Scount);
-
     }
 }

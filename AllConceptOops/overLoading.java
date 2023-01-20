@@ -1,4 +1,4 @@
-package AllConceptOops;
+
 
 
 // Method OverLoading in fuction name same but different parameters if same parameter java is confused and show runtime error.
