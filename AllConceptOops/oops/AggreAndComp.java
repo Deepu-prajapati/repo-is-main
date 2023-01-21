@@ -26,6 +26,7 @@ class Book{
 class Bike{
     private String name;
     private int mileage;
+
     public Bike(String name, int mileage) {
         this.name = name;
         this.mileage = mileage;
@@ -112,6 +113,16 @@ public class AggreAndComp {
 
         System.out.println(s.b.getWt());
         System.out.println(s.b.getColor());
-       
+
+        Bike b = new Bike("Duke", 75);
+        Book bo = new Book("JAVA", "GJ");
+
+        System.out.println();
+
+        s.bike(b);
+
+        System.out.println();
+        
+        s.book(bo);
     }
 }

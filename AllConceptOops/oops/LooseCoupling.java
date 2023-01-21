@@ -39,6 +39,15 @@ class Passenger extends Fighter{
     }
 }
 
+class Airport{
+    static void permit(MyPlane ref){
+        ref.fly();
+        ref.land();
+
+     }
+    }
+
+
 public class LooseCoupling {
     public static void main(String[] args) {
 
@@ -46,17 +55,21 @@ public class LooseCoupling {
         Fighter fp = new Fighter();
         Passenger pp = new Passenger();
 
-        MyPlane ref;
-        ref = cp;
-        ref.fly();
-        ref.land();
+        Airport.permit(cp);
+        Airport.permit(fp);
+        Airport.permit(pp);
 
-        ref = fp;
-        ref.fly();
-        ref.land();
+        // MyPlane ref;
+        // ref = cp;
+        // ref.fly();
+        // ref.land();
 
-        ref = pp;
-        ref.fly();
-        ref.land();
+        // ref = fp;
+        // ref.fly();
+        // ref.land();
+
+        // ref = pp;
+        // ref.fly();
+        // ref.land();
     }
 }
